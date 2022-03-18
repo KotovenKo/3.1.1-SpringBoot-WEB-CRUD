@@ -1,6 +1,4 @@
 package com.kot.SpringBoot.controller;
-
-
 import com.kot.SpringBoot.Service.UserService;
 import com.kot.SpringBoot.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
-
 
 @Controller
 @RequestMapping("/users")

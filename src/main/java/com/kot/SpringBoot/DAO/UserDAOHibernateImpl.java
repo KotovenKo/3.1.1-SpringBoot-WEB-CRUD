@@ -1,10 +1,7 @@
 package com.kot.SpringBoot.DAO;
-
 import com.kot.SpringBoot.model.User;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-
-
 import javax.persistence.TypedQuery;
 import java.util.List;
 

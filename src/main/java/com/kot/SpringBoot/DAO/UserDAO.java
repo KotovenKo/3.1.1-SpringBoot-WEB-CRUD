@@ -1,8 +1,5 @@
 package com.kot.SpringBoot.DAO;
-
 import com.kot.SpringBoot.model.User;
-
-
 import java.util.List;
 
 public interface UserDAO {

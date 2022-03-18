@@ -1,9 +1,6 @@
 package com.kot.SpringBoot.DAO;
-
 import com.kot.SpringBoot.model.User;
 import org.springframework.stereotype.Repository;
-
-
 import java.util.ArrayList;
 import java.util.List;
 

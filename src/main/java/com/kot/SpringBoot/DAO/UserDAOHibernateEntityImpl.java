@@ -1,9 +1,5 @@
 package com.kot.SpringBoot.DAO;
-
 import com.kot.SpringBoot.model.User;
-import org.springframework.stereotype.Repository;
-
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;

@@ -1,7 +1,4 @@
 package com.kot.SpringBoot.Service;
-
-
-
 import com.kot.SpringBoot.model.User;
 
 import java.util.List;

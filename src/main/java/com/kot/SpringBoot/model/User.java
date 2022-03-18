@@ -1,5 +1,4 @@
 package com.kot.SpringBoot.model;
-
 import javax.persistence.*;
 import javax.validation.constraints.*;
 

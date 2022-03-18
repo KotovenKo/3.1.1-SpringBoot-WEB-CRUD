@@ -1,12 +1,8 @@
 package com.kot.SpringBoot.Service;
-
-import com.kot.SpringBoot.DAO.UserDAO;
 import com.kot.SpringBoot.DAO.UserDAOCrudRepo;
 import com.kot.SpringBoot.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -31,7 +27,6 @@ public class UserServiceimpl implements UserService {
 
     @Override
     public List<User> getNumberOfUsers(int counter) {
-        System.out.println("In service getnumber");
         return userDAOCrudRepo.findFirst(counter);
     }
 
