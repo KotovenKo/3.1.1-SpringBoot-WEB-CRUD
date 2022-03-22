@@ -12,7 +12,6 @@ public class UserDAOHibernateEntityImpl implements UserDAO {
 
     @Override
     public List<User> getUsers() {
-        System.out.println("In the get user method");
         return entityManager.createQuery("select u from User u").getResultList();
     }
 
@@ -37,12 +36,6 @@ public class UserDAOHibernateEntityImpl implements UserDAO {
 
     @Override
     public void update(long id, User user) {
-//        System.out.println("In the update method");
-//        User updatedUser = getUser(id);
-//        updatedUser.setName(user.getName());
-//        updatedUser.setSecondName(user.getSecondName());
-//        updatedUser.setAge(user.getAge());
-//        updatedUser.setEmail(user.getEmail());
         entityManager.merge(user);
     }
 

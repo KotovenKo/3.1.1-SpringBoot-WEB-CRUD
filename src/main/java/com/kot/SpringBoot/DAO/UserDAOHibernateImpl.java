@@ -13,7 +13,6 @@ public class UserDAOHibernateImpl implements UserDAO {
 
     @Override
     public List<User> getUsers() {
-        System.out.println("In the get user method");
         TypedQuery<User> query = sessionFactory.getCurrentSession().createQuery("from User");
         return query.getResultList();
     }
