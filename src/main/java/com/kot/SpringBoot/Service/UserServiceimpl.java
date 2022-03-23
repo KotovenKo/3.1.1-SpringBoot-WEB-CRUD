@@ -11,7 +11,7 @@ import java.util.List;
 @Transactional
 public class UserServiceimpl implements UserService {
 
-    //@Qualifier("userDAOCrudRepo")
+
     @Autowired
     UserDAOCrudRepo userDAOCrudRepo;
 
